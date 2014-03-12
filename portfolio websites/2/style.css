@@ -1,0 +1,45 @@
+body {
+	text-align:center;
+	margin:0px;
+	}
+
+header {
+	background-color:#00C3FF;
+	border:1px solid #000000;
+	}
+	
+div {
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+	}
+	
+img {
+	width: 200px;
+	}
+
+.heading {
+	padding:20px;
+	}
+	
+.weapons {
+	border:1px solid #000000;
+	margin: 20px;
+	}
+	
+.selection {
+	
+	}
+	
+.results {
+	display:none;
+	}
+	
+footer {
+	position:fixed;
+	width:100%;
+	bottom:0px;
+	left:0px;
+	background-color:#00C3FF;
+	border:1px solid #000000;
+	}

@@ -1,0 +1,77 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>
+				Rock, Paper, Scissors
+			</title>
+			<link rel="stylesheet" type="text/css" href="style.css" />
+			<script src="script.js"></script>
+		</head>
+		<body>
+			<header>
+				<div class="heading"><h1>Rock, Paper, Scissors</h1></div><br />
+				<div class="heading"><h3>A website where you can play Rock, Paper, Scissors</h3></div>
+			</header>
+			<!--Selection-->
+				<div class="selection">
+					<div>
+						Choose your weapon
+					</div>
+					<br />
+					
+					<div class="weapons">
+					<form>
+						<label for="paper"><img src="paper.jpg"></label>
+						<br />
+						<input type="radio" name="userChoice" value="paper" id="paper">
+					</div>
+					
+					<div class="weapons">
+						<label for="rock"><img src="rock.jpg"></label>
+						<br />
+						<input type="radio" name="userChoice" value="rock" id="rock">
+					</div>
+					
+					<div class="weapons">
+						<label for="scissors"><img src="scissors.jpg"></label>
+						<br />
+						<input type="radio" name="userChoice" value="scissors" id="scissors">
+					</div>
+					
+					<br />
+					
+					<button type="button" onclick="play;">BATTLE</button>
+					</form>
+				</div>
+				<!--Results Page-->
+				<div class="results">
+					Fight!
+				<br />
+				
+					<div class="weapons">
+						<img src="rock.jpg">
+						<hr />
+						<h2>Player Choice</h2>
+					</div>
+					VS.
+					<div class="weapons">
+						<img src="rock.jpg">
+						<hr />
+						<h2>Computer Choice</h2>
+					</div>
+				
+				<br />
+				
+				<h1>You Win/Lose!</h1>
+				
+				<br />
+				
+				<button type="button">Play Again?</button>
+				</form>
+				</div>
+			<footer>
+				&copy; 2014 Alex Kendrick<br />
+				None of the images belong to me, all rights to the images belong to their respective owners.
+			</footer>
+		</body>
+	</html>
