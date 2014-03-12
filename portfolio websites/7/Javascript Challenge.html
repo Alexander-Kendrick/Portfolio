@@ -1,0 +1,54 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>
+				Yodaizer
+			</title>
+			<style>
+				#div1 {
+					font-size:30px;
+				}
+				
+				div {
+					border:2px solid #000000;
+					width:800px;
+				}
+			</style>
+			<script src="script.js"></script>
+		</head>
+		<body>
+			<form>
+				<input type="text" id="input" />
+				<button type="button" onclick="reverseString();">Yodaize It!</button>
+			</form>
+			<div id="div1"></div>
+			<br />
+			<div>
+				<h2>The Task</h2>
+				<br />
+				I was tasked to make a Javascript function that can write out the words of a string in reverse order.
+			</div>
+			<h2>The Code</h2>
+				<br />
+			<div>
+				<code>
+					<p>function reverseString() {</p>
+					<p>	// Defines the string and puts it into a variable.</p>
+					<p>		var original = document.getElementById("input").value;</p>
+							
+					<p>	// Reverses the string by sticking it into an array and joining it together.</p>
+					<p>		//.split takes the string and splits it into an array.</p>
+					<p>			var reversed = original.split(' ')</p>
+					<p>		//.reverse takes the words in the array and reverses it.</p>
+					<p>			.reverse()</p>
+					<p>		//.join takes the array and joins it back into a string in the end.</p>
+					<p>			.join(' ');</p>
+							
+					<p>	// Prints the data stored in the reversed variable to the div</p>
+					<p>		var div = document.getElementById('div1');</p>
+					<p>		div.innerHTML = div.innerHTML + reversed;</p>
+					<p>}</p>
+				</code>
+			</div>
+		</body>
+	</html>
